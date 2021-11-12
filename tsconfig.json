@@ -1,19 +1,5 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "declaration": true,
-    "isolatedModules": true,
-    "strict": true,
-    "removeComments": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "noLib": false,
-    "lib": ["es2017", "dom"],
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "target": "es6",
-    "sourceMap": true,
-    "allowJs": true,
-    "jsx": "react"
+    "target": "es6"
   }
 }
