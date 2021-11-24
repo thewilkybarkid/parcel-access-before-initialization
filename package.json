@@ -1,10 +1,11 @@
 {
   "devDependencies": {
     "@parcel/transformer-typescript-tsc": "^2.0.1",
+    "@tsconfig/node16": "^1.0.2",
     "parcel": "^2.0.1"
   },
   "scripts": {
-    "prestart": "parcel build --no-optimize --no-scope-hoist index.ts",
-    "start": "node dist/index.js"
+    "parcel": "parcel build --no-optimize --no-scope-hoist index.ts && node dist/index.js",
+    "tsc": "tsc && node tsc/index.js"
   }
 }
